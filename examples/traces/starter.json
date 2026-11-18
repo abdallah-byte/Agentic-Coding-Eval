@@ -1,0 +1,11 @@
+{
+  "task_id": "ledger-v1",
+  "run_id": "demonstration-starter",
+  "steps": [
+    {"action": "plan", "summary": "Inspect the parser, make a change, and run the public tests."},
+    {"action": "inspect", "path": "solution.py", "note": "Read starter implementation."},
+    {"action": "edit", "path": "solution.py", "note": "No effective fix; retained float parsing."},
+    {"action": "test", "result": "fail", "note": "Public ledger tests failed."},
+    {"action": "final", "summary": "The solution remains incomplete; tests failed."}
+  ]
+}
